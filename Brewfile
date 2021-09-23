@@ -1,30 +1,27 @@
-# Brewfile, similar to a Gemfile
-# Go to https://github.com/Homebrew/homebrew-bundle for more information
-# Visit https://github.com/MikeMcQuaid/strap for a nice bootstrap script
-# `wget https://gist.githubusercontent.com/erumble/e32ea56d67462d50e6a2855bd2f3c805/raw/Brewfile`
-
-# Usage:
-# run `brew bundle` to install the items listed
-# run `brew bundle cleanup` to uninstall formulae not listed here
-# run `brew bundle check` to check for updates
-
-# Homebrew taps (repositories)
 tap "hashicorp/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
-
-# Homebrew brews (apps that are installed via command line)
+tap "osx-cross/arm"
+tap "osx-cross/avr"
+tap "qmk/qmk"
 brew "ansible"
 brew "awscli"
+brew "glib"
+brew "gdk-pixbuf"
+brew "gh"
 brew "git"
 brew "go"
+brew "gobject-introspection"
+brew "python@3.8"
 brew "graphviz"
 brew "htop"
 brew "hub"
 brew "jq"
+brew "krb5"
 brew "neovim"
+brew "nghttp2"
 brew "nmap"
 brew "node"
 brew "p7zip"
@@ -36,15 +33,16 @@ brew "rbenv"
 brew "telnet"
 brew "terraform"
 brew "terraform-docs"
-brew "terraform-ls"
 brew "the_silver_searcher"
+brew "tmux"
 brew "tree"
 brew "watch"
 brew "wget"
 brew "zsh"
-
-# Homebrew casks (apps that require graphical installation)
+brew "hashicorp/tap/terraform-ls"
+brew "qmk/qmk/qmk"
 cask "1password"
+cask "battle-net"
 cask "bettertouchtool"
 cask "discord"
 cask "docker"
@@ -55,6 +53,7 @@ cask "iterm2"
 cask "kaleidoscope"
 cask "kitematic"
 cask "postman"
+cask "raspberry-pi-imager"
 cask "slack"
 cask "spotify"
 cask "steam"
