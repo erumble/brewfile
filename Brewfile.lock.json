@@ -14,7 +14,7 @@
         "revision": "dc49e99490709e5032425fd44ac49b1b4f3d1f2b"
       },
       "homebrew/core": {
-        "revision": "fc791437312067942df1c6e07de9e726617404d8"
+        "revision": "a7f2a841191ce9abc36fe8352e319c3cd90952b6"
       },
       "homebrew/services": {
         "revision": "0c4caad0ccdab8014e9436624379828377d474d8"
@@ -1308,7 +1308,7 @@
         }
       },
       "spotify": {
-        "version": "1.1.73.517,bef50fdb,23",
+        "version": "1.1.69.612,b7409abc,13",
         "options": {
           "full_name": "spotify"
         }
@@ -1354,6 +1354,14 @@
         "CLT": "13.0.0.0.1.1630607135",
         "Xcode": "13.1",
         "macOS": "11.6.1"
+      },
+      "monterey": {
+        "HOMEBREW_VERSION": "3.3.5",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "a7f2a841191ce9abc36fe8352e319c3cd90952b6",
+        "CLT": "13.1.0.0.1.1633545042",
+        "Xcode": "13.1",
+        "macOS": "12.0.1"
       }
     }
   }
